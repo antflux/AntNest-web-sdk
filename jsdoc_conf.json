@@ -1,0 +1,48 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "source": {
+        "includePattern": ".+\\.js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "plugins": [],
+    "markdown":{
+        "idInHeadings": true
+    },
+    "opts": {
+        "template": "node_modules/docdash",
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "default": {
+            "includeDate": false
+        }
+    },
+    "docdash": {
+        "static": true,
+        "sort": false,
+        "disqus": "countly-documentation",
+		"openGraph": {
+			"title": "Antnest Web SDK Documentation",
+			"type": "website",
+			"image": "",
+			"site_name": "Antnest Web SDK Documentation",
+			"url": "http://countly.github.io/countly-sdk-web/"
+		},
+		"meta": {
+			"title": "Antnest Web SDK Documentation",
+			"description": "JSDoc generated Antnest Web SDK documentation",
+			"keyword": "countly, web, sdk, jsdoc, doc, documentation"
+		},
+        "search": true,
+        "collapse": false,
+        "scripts": ["https://stats.count.ly/sdk/countly-docs.js"]
+    }
+}

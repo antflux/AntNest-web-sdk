@@ -1,0 +1,48 @@
+{
+  "name": "antnest-web-sdk",
+  "version": "1.1.0",
+  "description": "AntNest Web SDK",
+  "main": "lib/antnest.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc lib/antnest.js README.md -c jsdoc_conf.json -d docs",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonsonlion/AntNest-web-sdk"
+  },
+  "keywords": [
+    "AntNest",
+    "Analytics",
+    "Web"
+  ],
+  "author": "AntNest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonsonlion/AntNest-web-sdk/issues"
+  },
+  "homepage": "https://antnest.co",
+  "dependencies": {},
+  "devDependencies": {
+    "casperjs": "*",
+    "docdash": "1.0.0",
+    "jsdoc": "*",
+    "jshint": "*",
+    "webpack": "^4.10.1",
+    "webpack-cli": "3.1.1"
+  },
+  "npmName": "antnest-web-sdk",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "antnest.min.js"
+      ]
+    }
+  ]
+}

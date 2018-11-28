@@ -1,0 +1,29 @@
+{
+  "name": "antnest-web-sdk",
+  "version": "18.11.0",
+  "description": "Countly Web SDK",
+  "main": "lib/antnest.js",
+  "moduleType": "globals",
+  "keywords": [
+    "antnest",
+    "Analytics",
+    "Web",
+    "Mobile"
+  ],
+  "authors": [
+    "antnest"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/countly/countly-sdk-web.git"
+  },
+  "license": "./LICENSE",
+  "homepage": "https://count.ly/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
